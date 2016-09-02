@@ -45,7 +45,8 @@ $(document).ready(function () {
     $(".switch div").click(function () {
         var id = $(this).attr("id");
 
-        // adjust link here
+        href='gridster-jekyll-theme/css/grid'
+        href='gridster-jekyll-theme/css/classic'
         $("#switch-style").attr("href", "/css/" + id + ".css");
         setCookie("switch-style", id, 365);
     });
@@ -55,14 +56,6 @@ $(document).ready(function () {
         $("#color-change").attr("href", "/css/main_" + cookieColor + ".css");
     }
 
-    // Style Switch color scheme
-    $(".color-change img").click(function () {
-        var id = $(this).attr("id");
-
-        // adjust link here
-        $("#color-change").attr("href", "/css/main_" + id + ".css");
-        setCookie("color-change", id, 365);
-    });
 
     if ($('.articles').find('div.wrapper').length != 0) {
         $('.switch').hide();
