@@ -2,6 +2,7 @@
 <html>
     <head>
         {% include head.html %}
+        
     </head>
 
     <body class="index">
@@ -13,8 +14,8 @@
         <div class="margin">
             <div class="content">
                 <div class="switch">
-                    <div id="grid"></div>
-                    <div id="classic"></div>
+                    <div id="grid"><span></span></div>
+                    <div id="classic"><span></span></div>
                 </div>
                 {% if page.title %}<h1 class="title">{{ page.title }}</h1>{% endif %}
                 <div class="articles">
