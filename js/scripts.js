@@ -46,7 +46,8 @@ $(document).ready(function () {
         var id = $(this).attr("id");
 
         href='gridster-jekyll-theme/css/grid'
-        href='gridster-jekyll-theme/css/classic'
+        href='gridster-jekyll-theme/css/classic'});
+        
         $("#switch-style").attr("href", "/css/" + id + ".css");
         setCookie("switch-style", id, 365);
     });
