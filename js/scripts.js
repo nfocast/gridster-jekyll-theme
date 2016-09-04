@@ -42,14 +42,16 @@ $(document).ready(function () {
     }
 
     // Style Switch index layout
-    $(".switch div").click(function () {
+    $(".switch").click(function () {
         var id = $(this).attr("id");
 
-        href='gridster-jekyll-theme/css/grid'
-        href='gridster-jekyll-theme/css/classic'});
+        //adjust link here
         
-        $("#switch-style").attr("href", "/css/" + id + ".css");
-        setCookie("switch-style", id, 365);
+        $(".switch").attr("href", "gridster-jekyll-theme/css/" + "gridster-jekyll-theme/scss/partials/layout/_index" + "#grid" + "#classic" + ".css" + ".scss");
+        setCookie("switch-style", "id", 365);
+        
+        href='gridster-jekyll-theme/css/grid'
+        href='gridster-jekyll-theme/css/classic'
     });
 
     var cookieColor = getCookie("color-change");
