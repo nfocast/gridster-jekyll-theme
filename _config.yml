@@ -1,9 +1,9 @@
 full_rebuild: true
-name: Gridster
-description: the material experience for jekyll
+name: N4
+description: :D
 destination: jekyllbuild
 url: #place url
-baseurl: #place folder name if site is served in subfolder
+baseurl: '/gridster-jekyll-theme'
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
