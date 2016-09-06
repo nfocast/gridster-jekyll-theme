@@ -37,7 +37,7 @@ $(document).ready(function () {
     });
     
     var cookieLayout = getCookie("switch-style");
-    if (cookieLayout != "") {
+    if (cookieLayout !== "") {
         $("#switch-style").attr("href", "/css/" + cookieLayout + ".css");
     }
 
@@ -50,17 +50,17 @@ $(document).ready(function () {
         $(".switch").attr("href", "gridster-jekyll-theme/css/" + "gridster-jekyll-theme/scss/partials/layout/_index" + "#grid" + "#classic" + ".css" + ".scss");
         setCookie("switch-style", "id", 365);
         
-        href='gridster-jekyll-theme/css/grid'
-        href='gridster-jekyll-theme/css/classic'
+        href='gridster-jekyll-theme/css/grid';
+        href='gridster-jekyll-theme/css/classic';
     });
 
     var cookieColor = getCookie("color-change");
-    if (cookieColor != "") {
+    if (cookieColor !== "") {
         $("#color-change").attr("href", "/css/main_" + cookieColor + ".css");
     }
 
 
-    if ($('.articles').find('div.wrapper').length != 0) {
+    if ($('.articles').find('div.wrapper').length !=== 0) {
         $('.switch').hide();
     } else {
         $('.switch').show();
@@ -84,14 +84,14 @@ function getCookie(cname) {
     for(var i=0; i<ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0)==' ') c = c.substring(1);
-        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+        if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
     }
     return "";
 }
 
 function checkCookie(cname) {
     var cookie = getCookie(cname);
-    if (cookie != "") {
+    if (cookie !== "") {
         alert("cookie is" + cookie);
     } else {
         alert("cookie unset");
