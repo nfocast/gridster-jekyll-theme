@@ -1,27 +1,27 @@
-@import "toolbox/all";
+@import "gridster-jekyll-theme/sass/toolbox/all";
 
-@import "base/settings";
-@import "base/typography";
+@import "gridster-jekyll-theme/sass/base/settings";
+@import "gridster-jekyll-theme/sass/base/typography";
 
-@import "assets/font-awesome";
+@import "gridster-jekyll-theme/sass/assets/font-awesome";
 
-@import "toolbox/palettes/brown";
+@import "gridster-jekyll-theme/sass/toolbox/palettes/brown";
 
-@import "base/reset";
-@import "base/base-style";
+@import "gridster-jekyll-theme/sass/base/reset";
+@import "gridster-jekyll-theme/sass/base/base-style";
 
-@import "partials/general";
-@import "partials/layout/header";
-@import "partials/layout/index";
-@import "partials/components/article";
-@import "partials/components/gallery";
-@import "partials/components/pagination";
-@import "partials/components/authorbox";
-@import "partials/layout/post";
-@import "partials/layout/sidebar";
-@import "partials/layout/footer";
-@import "partials/components/widget";
-@import "partials/components/syntax";
-@import "partials/components/lightbox";
+@import "gridster-jekyll-theme/sass/partials/general";
+@import "gridster-jekyll-theme/sass/partials/layout/header";
+@import "gridster-jekyll-theme/sass/partials/layout/index";
+@import "gridster-jekyll-theme/sass/partials/components/article";
+@import "gridster-jekyll-theme/sass/partials/components/gallery";
+@import "gridster-jekyll-theme/sass/partials/components/pagination";
+@import "gridster-jekyll-theme/sass/partials/components/authorbox";
+@import "gridster-jekyll-theme/sass/partials/layout/post";
+@import "gridster-jekyll-theme/sass/partials/layout/sidebar";
+@import "gridster-jekyll-theme/sass/partials/layout/footer";
+@import "gridster-jekyll-theme/sass/partials/components/widget";
+@import "gridster-jekyll-theme/sass/partials/components/syntax";
+@import "gridster-jekyll-theme/sass/partials/components/lightbox";
 
-@import "temporary";
+@import "gridster-jekyll-theme/sass/temporary";
